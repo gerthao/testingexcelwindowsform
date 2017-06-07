@@ -1,0 +1,7 @@
+[0, 3:47:05 PM]: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot convert type 'double' to 'string'
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at CallSite.Target(Closure , CallSite , Object )
+   at WindowsFormsApp1.Form1.getCell(Range range, Int32 row, Int32 col) in C:\Users\gthao\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\Form1.cs:line 82
+   at WindowsFormsApp1.Form1.removeDuplicateInfo(Worksheet& worksheet, Int32 row, Int32 col_1, Int32 col_2) in C:\Users\gthao\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\Form1.cs:line 108
+   at WindowsFormsApp1.Form1.button2_Click(Object sender, EventArgs e) in C:\Users\gthao\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\Form1.cs:line 154
